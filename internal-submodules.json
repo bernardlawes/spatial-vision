@@ -1,0 +1,9 @@
+{
+  "main_repo_name": "spatialmap-vision",
+  "gh_user": "bernardlawes",
+  "submodules": [
+    { "name": "vision-infer-cpp", "branch": "master" },
+    { "name": "vision-train-py", "branch": "master" },
+    { "name": "vision-common", "branch": "master" }
+  ]
+}

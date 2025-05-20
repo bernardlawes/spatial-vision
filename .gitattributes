@@ -1,0 +1,9 @@
+* text=auto
+*.ipynb binary
+*.onnx binary
+*.pt binary
+*.tflite binary
+*.engine binary
+*.cpp diff=cpp
+*.h diff=cpp
+*.py diff=python

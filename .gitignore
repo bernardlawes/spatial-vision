@@ -1,0 +1,15 @@
+logs/
+*.log
+vision-train-py/.git/
+vision-infer-cpp/.git/
+vision-common/.git/
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.pt
+*.onnx
+models/
