@@ -10,7 +10,7 @@ A modular, full-stack computer vision suite for training, deploying, and running
 |-----------|-------------|
 | [`vision-train-py`](./vision-train-py) | Python repo for training, exporting, and evaluating YOLO and transformer-based object detection models |
 | [`vision-infer-cpp`](./vision-infer-cpp) | C++ inference engine for running exported ONNX models in real-time (ONNX Runtime, OpenCV DNN) |
-| [`vision-shared-utils`](./vision-shared-utils) | Shared label maps, preprocessing logic, and configuration files used across both Python and C++ |
+| [`vision-common`](./vision-common) | Shared label maps, preprocessing logic, and configuration files used across both Python and C++ |
 
 ---
 
@@ -32,7 +32,7 @@ Folder Structure
 spatialmap-vision/
 ├── vision-train-py/       # Submodule: training and model export
 ├── vision-infer-cpp/      # Submodule: C++ ONNX inference
-├── vision-shared-utils/   # Submodule: shared logic and labels
+├── vision-common/   # Submodule: shared logic and labels
 ├── models/                # Shared ONNX models
 ├── demos/                 # End-to-end pipelines and sample runs
 ├── submodules.json
