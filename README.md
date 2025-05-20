@@ -1,4 +1,4 @@
-# 📦 SpatialMap Vision Suite
+# 📦 Spatial Vision
 
 A modular, full-stack computer vision suite for training, deploying, and running object detection models across Python and C++ environments. This parent repository uses Git submodules to link tightly integrated components.
 
