@@ -1,0 +1,9 @@
+[submodule "vision-train-py"]
+	path = vision-train-py
+	url = https://github.com/bernardlawes/vision-train-py.git
+[submodule "vision-infer-cpp"]
+	path = vision-infer-cpp
+	url = https://github.com/bernardlawes/vision-infer-cpp.git
+[submodule "vision-common"]
+	path = vision-common
+	url = https://github.com/bernardlawes/vision-common.git
